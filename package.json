@@ -1,0 +1,27 @@
+{
+  "name": "riot",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron index.js",
+    "x64build" : "electron-packager. riot --asar --platform=win32 --arch=x64 --out=dist64 --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJine/-woodpecker.git"
+  },
+  "author": "jine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JJine/-woodpecker/issues"
+  },
+  "homepage": "https://github.com/JJine/-woodpecker#readme",
+  "description": "",
+  "dependencies": {
+    "asar": "^2.0.1",
+    "electron": "^7.0.1",
+    "electron-packager": "^14.1.0",
+    "request": "^2.88.0"
+  }
+}
